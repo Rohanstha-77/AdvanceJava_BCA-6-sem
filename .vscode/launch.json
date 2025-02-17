@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "gridLayout",
+            "request": "launch",
+            "mainClass": "gridLayout",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "borderLayout",
+            "request": "launch",
+            "mainClass": "borderLayout",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "FlowLayout",
+            "request": "launch",
+            "mainClass": "FlowLayout",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "MyFrame",
+            "request": "launch",
+            "mainClass": "MyFrame",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "lab1",
+            "request": "launch",
+            "mainClass": "lab1",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "shape",
+            "request": "launch",
+            "mainClass": "shape",
+            "projectName": "AdvanceJava_3843c77a"
+        }
+    ]
+}
