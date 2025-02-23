@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mouseEventHandeling",
+            "request": "launch",
+            "mainClass": "mouseEventHandeling",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "Dog",
+            "request": "launch",
+            "mainClass": "Dog",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "lab2",
+            "request": "launch",
+            "mainClass": "lab2",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
             "name": "gridLayout",
             "request": "launch",
             "mainClass": "gridLayout",

@@ -1,8 +1,12 @@
 import java.awt.Color;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class lab1 extends JFrame {
+
+
+public class lab1 extends JFrame implements ActionListener {
 
     public lab1(){
         setTitle("Calculator");
@@ -46,6 +50,8 @@ public class lab1 extends JFrame {
         // JTextField outpuTextField = new JTextField();
         // outpuTextField.setBounds(130,180,150,30);
         // add(outpuTextField);
+
+        
 
         // using panel
         JPanel panel = new JPanel();
@@ -91,12 +97,47 @@ public class lab1 extends JFrame {
         panel.add(differenceButton);
         panel.add(outpuJLabel);
         panel.add(outpuTextField);
-        
         add(panel);
         setVisible(true);
-    }
 
+
+
+        sumButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int num1 = Integer.parseInt(textField1.getText());
+                int num2 = Integer.parseInt(textField2.getText()); 
+                int sum = num1 + num2;
+                outpuTextField.setText(String.valueOf(sum));;
+            }
+            
+        });
+        
+        differenceButton.addActionListener(new ActionListener() {
+
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int num1 = Integer.parseInt(textField1.getText());
+                int num2 = Integer.parseInt(textField2.getText()); 
+               int difference = num1 - num2;
+               outpuTextField.setText(String.valueOf(difference));
+            }
+            
+        });
+
+
+    }
+    
     public static void main(String[] args){
         new lab1();
     }
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'actionPerformed'");
+    }
+
+    
 }
