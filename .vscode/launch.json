@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DatabaseConnection",
+            "request": "launch",
+            "mainClass": "DatabaseConnection",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
             "name": "mouseEventHandeling",
             "request": "launch",
             "mainClass": "mouseEventHandeling",
