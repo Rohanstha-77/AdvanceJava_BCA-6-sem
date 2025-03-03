@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ResultSetDemo",
+            "request": "launch",
+            "mainClass": "ResultSetDemo",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "PrepareStatementDemo",
+            "request": "launch",
+            "mainClass": "PrepareStatementDemo",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "CRUDwithGUI",
+            "request": "launch",
+            "mainClass": "CRUDwithGUI",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
             "name": "CRUDinJava",
             "request": "launch",
             "mainClass": "CRUDinJava",

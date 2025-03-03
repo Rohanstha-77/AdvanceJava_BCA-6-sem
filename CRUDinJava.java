@@ -95,7 +95,6 @@ public class CRUDinJava implements CurdMethods {
         }else{
             System.out.println("fail to delete");
         }
-        read();
     }
 
     public static void main(String[] args) {
