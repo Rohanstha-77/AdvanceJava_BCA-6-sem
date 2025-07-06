@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lab3",
+            "request": "launch",
+            "mainClass": "Lab3",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "lab3",
+            "request": "launch",
+            "mainClass": "lab3",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "InterospectorDemo",
+            "request": "launch",
+            "mainClass": "chapter3.InterospectorDemo",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "detail",
+            "request": "launch",
+            "mainClass": "chapter3.detail",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
+            "name": "rowSet",
+            "request": "launch",
+            "mainClass": "rowSet",
+            "projectName": "AdvanceJava_3843c77a"
+        },
+        {
+            "type": "java",
             "name": "ResultSetDemo",
             "request": "launch",
             "mainClass": "ResultSetDemo",

@@ -35,7 +35,9 @@ public class ResultSetDemo {
         ResultSets.updateString("level", "Bachelor");
         ResultSets.updateString("major", "MBA");
         ResultSets.updateString("Division", "First");
-        ResultSets.insertRow();;
+        ResultSets.insertRow();
+
+        
     }
     
     public static void main(String[] args) throws SQLException {
